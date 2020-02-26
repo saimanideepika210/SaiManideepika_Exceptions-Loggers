@@ -1,0 +1,9 @@
+2020-02-26 11:43:33 INFO  com.logger.mylogger.A:13 - Choose material cost which you want to use for construction from below
+2020-02-26 11:43:33 INFO  com.logger.mylogger.A:14 - 1.StandardMaterial cost:1200
+2020-02-26 11:43:33 INFO  com.logger.mylogger.A:15 - 2.AboveStandardMaterialcost:1500
+2020-02-26 11:43:33 INFO  com.logger.mylogger.A:16 - 3.HighStandardMaterialcost:1800
+2020-02-26 11:43:33 INFO  com.logger.mylogger.A:17 - 4.HighStandardMaterialcost and fully automated home:2500
+2020-02-26 11:43:33 INFO  com.logger.mylogger.A:18 - Enter the material cost:
+2020-02-26 11:43:37 INFO  com.logger.mylogger.A:20 - Enter area of the house:
+2020-02-26 11:43:40 INFO  com.logger.mylogger.A:30 - Cost of the house=180000.0
+2020-02-26 11:43:40 INFO  com.logger.mylogger.A:24 - Method executed successfully
