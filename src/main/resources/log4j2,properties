@@ -1,0 +1,31 @@
+
+rootLogger.level=DEBUG
+appender.console.type=Console
+appender.console.name=deepika
+appender.console.layout.type=PatternLayout
+appender.console.layout.pattern=%m%n
+rootLogger.appenderRef.stdout.ref=deepika
+
+#%d{yyyy-MM-dd HH:mm:ss} %-5p %c{5}:%L -
+
+
+appender.rolling.type=RollingFile
+appender.rolling.name=RollingFile
+appender.rolling.filename=C://deepika//epam.log
+appender.rolling.filePattern =logarchive-%d{MM-dd-yy-HH:mm-ss}-%i.log.zip
+appender.rolling.layout.type =PatternLayout
+appender.rolling.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{5}:%L - %m%n
+appender.rolling.policies.type=Policies
+rootLogger.appenderRef.rolling.ref = RollingFile
+
+
+
+appender.rolling.type=RollingFile
+appender.rolling.name=htmlLogs
+appender.rolling.filename=C://deepika//epam.html
+appender.rolling.filePattern =logarchive-%d{MM-dd-yy-HH:mm-ss}-%i.log.zip
+appender.rolling.layout.type =HTMLLayout
+#appender.rolling.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{5}:%L - %m%n
+appender.rolling.policies.type=Policies
+rootLogger.appenderRef.rolling.ref = htmlLogs
+
